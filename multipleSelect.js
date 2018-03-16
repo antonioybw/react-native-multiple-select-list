@@ -109,8 +109,11 @@ export default class CustomMultiPicker extends Component {
           </View>
           <TextInput
             style={{
+	      width:300,
               height: 35,
-              margin: 10,
+              margin: 0,
+	      marginTop:10,
+	      marginLeft:-25,
               padding: 5,
               paddingLeft: 30,
               borderColor: this.props.iconColor,
